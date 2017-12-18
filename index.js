@@ -13,10 +13,13 @@ function increaseRankBy(n) {
    list[i].innerHTML = parseInt(list[i].innerHTML) + n}
  }
 
-function deepestChild(){
-  var mdnChild = document.querySelectorAll('#grand-node');
-  for (var x = 0, x < mdnChild.length, x ++){
-    
-  }  
+  
  
-}
+function deepestChild(){
+  var children = document.querySelectorAll('#grand-node');
+    while(children){
+      for (var i = 0; i < children.length; i++){
+        children[i].innerHTML = chileren -1;
+      }
+    }
+} 
