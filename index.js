@@ -17,9 +17,8 @@ function increaseRankBy(n) {
  
 function deepestChild(){
   var children = document.querySelectorAll('#grand-node');
-    while(children){
-      for (var i = 0; i < children.length; i++){
-        children[i].innerHTML = chileren -1;
-      }
+  for (var i = 0; i < children.length; i++){
+        children[i].innerHTML = chileren;
+      
     }
 } 
